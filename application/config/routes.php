@@ -41,10 +41,14 @@
 //$route['blog/shoes/(:any)/(:any)'] = 'Blog/shoes/$1/$2';
 //$route['blog/comments'] = 'Blog/comments';
 //$route['blog'] = 'Blog';
+$route['featured'] = 'blog/view_featured_posts';
+$route['all/(:num)'] = 'blog/view_posts/$1';
+$route['all'] = 'blog/view_posts';
+$route['about'] = 'blog/about';
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
-$route['default_controller'] = 'pages/view';
+$route['default_controller'] = 'blog';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
