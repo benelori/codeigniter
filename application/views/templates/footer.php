@@ -1,3 +1,5 @@
-<strong>&copy; 2011</strong>
+</div>
+<script src="<?php echo base_url() . 'assets/js/login.js'; ?>"></script>
+<script src="<?php echo base_url() . 'assets/js/add_post.js'; ?>"></script>
 </body>
 </html>
